@@ -1,25 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Linq;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace MetoderStatisk
 {
     class Program
     {
         static void Main(string[] args)
         {
-            FilTyper ft = new FilTyper();
-            ft = FilTyper.csv;
 
-            Console.WriteLine(value: $"Aktuel filtype er: {ft.ToString()}" );
+            if (System.IO.File.Exists(@"c:\temp\test.txt")) {
+                Console.WriteLine("Hurra - filen blev fundet.");
+            }
+            else
+                Console.WriteLine("Filen eksisterer ikke.");
 
-            Person p = new Person();
-            p.Id = 1;
-            p.Navn = "Mikkel";
 
-             Console.WriteLine($"Navnet på personen er: {p.Navn}");
+            
+
+
+
 
 
 
@@ -28,7 +30,6 @@ namespace ConsoleApp1
                 Console.Write("Press any key to continue . . . ");
                 Console.ReadKey();
             }
-
 
         }
     }

@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{133CD692-485E-47F4-99EF-9CC742BE6359}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetoderTest", "Metoder\MetoderTest.csproj", "{10A936F1-ECDB-471D-8DAF-001B8C9E040A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetoderStatisk", "MetoderStatisk\MetoderStatisk.csproj", "{74BEADDA-16AD-44F8-AC5D-4466142EA407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{133CD692-485E-47F4-99EF-9CC742BE6359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133CD692-485E-47F4-99EF-9CC742BE6359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133CD692-485E-47F4-99EF-9CC742BE6359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A936F1-ECDB-471D-8DAF-001B8C9E040A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A936F1-ECDB-471D-8DAF-001B8C9E040A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A936F1-ECDB-471D-8DAF-001B8C9E040A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A936F1-ECDB-471D-8DAF-001B8C9E040A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74BEADDA-16AD-44F8-AC5D-4466142EA407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BEADDA-16AD-44F8-AC5D-4466142EA407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BEADDA-16AD-44F8-AC5D-4466142EA407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BEADDA-16AD-44F8-AC5D-4466142EA407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
